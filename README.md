@@ -8,6 +8,10 @@ bash macos-sierra.sh
 ```
 
 ```bash
-mv .bash_profile ~/.bash_profile
+cp .bash_profile ~/.bash_profile
 source ~/.bash_profile
+```
+
+```bash
+cp .gemrc ~/.gemrc
 ```
