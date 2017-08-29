@@ -29,6 +29,7 @@ brew install ruby-build
 brew install nvm
 brew install yarn
 brew install gphoto2
+brew install gpg
 brew install tor
 
 brew cask install google-chrome
