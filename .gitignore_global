@@ -1,0 +1,110 @@
+# .gitignore global
+
+## Linux
+._*
+*~
+.directory
+
+## OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+## Eclipse
+*.pydevproject
+.metadata
+.gradle
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.externalToolBuilders/
+*.launch
+.cproject
+.buildpath
+.target
+.texlipse
+
+## JetBrains
+.idea/
+.ideal_modules/
+*.ipr
+*.iws
+*.iml
+out/
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+
+## SublimeText
+*.sublime*
+
+## Vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+## XCode
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+
+## Mercurial
+/.hg/*
+*/.hg/*
+.hgignore
+
+## SVN
+.svn/
+
+## CVS
+/CVS/*
+*/CVS/*
+.cvsignore
+*/.cvsignore
+
+## SBT
+target/
+lib_managed/
+src_managed/
+project/boot/
+.history
+.cache
+
+## Vagrant
+.vagrant/
+Vagrantfile
+
+## Others
+.sass-cache
+.rake_tasks

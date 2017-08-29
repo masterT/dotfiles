@@ -1,0 +1,178 @@
+[user]
+ name = "Simon Thiboutôt"
+ email = simonthiboutot@hotmail.com
+
+[core]
+ excludesfile = "~/.gitignore_global"
+
+[tig]
+ show-rev-graph = yes
+ tab-size = 2
+ show-refs = yes
+ show-date = relative
+ show-line-numbers = no
+ show-author = yes
+
+[tig "color"]
+ cursor = yellow black normal
+ mode = magenta default bold
+ status = red default bold
+ title-focus = white black
+ title-blur = red black bold
+ date = white default normal
+ author = blue default bold
+ main-head = yellow default bold
+ main-remote = white default normal
+ main-commit = white default bold
+ main-revgraph = black default bold
+ main-tracked = white default normal
+ main-tag = green default bold
+ main-local-tag = green default bold
+ main-ref = green default bold
+ stat-head = white default normal
+ stat-section = blue default bold
+ stat-staged = green default bold
+ stat-unstaged = red default bold
+ stat-untracked = magenta default bold
+ blame-id = magenta default bold
+ tree-head = white default bold
+ tree-dir = yellow default bold
+ pp-author = blue default bold
+ pp-commit = white default bold
+ pp-merge = yellow default bold
+ pp-date = white default normal
+ pp-adate = white default normal
+ pp-cdate = white default normal
+ pp-refs = magenta default bold
+ diff-add = green default bold
+ diff-del = red default bold
+ diff-header = cyan default normal
+ diff-chunk = white default normal
+ diff-index = cyan default normal
+
+[tig "bind"]
+ generic = C !git cherry-pick %(commit)
+ generic = F !git fetch
+ generic = P !git pull
+
+[color]
+ ui = auto
+ diff = auto
+ status = auto
+ branch = auto
+ interactive = auto
+
+[push]
+ default = tracking
+
+[difftool]
+ prompt = false
+
+[diff]
+ tool = vimdiff
+
+[pack]
+ threads = 0
+
+[merge]
+ tool = meld
+ verbosity = 5
+
+[mergetool]
+ keepbackup = true
+ keeptemporaries = true
+
+[url "git@github.com:"]
+ insteadOf = gh:
+ pushInsteadOf = github:
+ pushInsteadOf = git://github.com/
+
+[url "git://github.com/"]
+ insteadOf = github:
+
+[url "git@gist.github.com:"]
+ insteadOf = gst:
+ pushInsteadOf = gist:
+ pushInsteadOf = git://gist.github.com/
+
+[url "git://gist.github.com/"]
+ insteadOf = gist:
+
+[url "git@bitbucket.org:"]
+ insteadOf = bb:
+ pushInsteadOf = bitbucket:
+ pushInsteadOf = git://bitbucket.org/
+
+[url "git://bitbucket.org/"]
+ insteadOf = bitbucket:
+
+[branch]
+ autosetuprebase = always
+
+[alias]
+ i = init
+ st = status
+ sto = status --untracked=no
+ a = add
+ aa = add --all
+ air = add --ignore-removal
+ ap = add --patch
+ au = add -u
+ ai = add --interactive
+ rm = remove
+ ci = commit -m
+ ca = commit -a -m
+ cam = commit --amend
+ co = checkout
+ cob = checkout -b
+ l = log --graph --pretty=format:'%C(blue bold)%h%Creset -%C(yellow bold)%d%Creset %s %C(white)(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+ ll = log --graph --pretty=oneline --abbrev-commit
+ rl = reflog
+ o = remote add origin
+ p = push
+ po = push -u origin
+ psod = push --recurse-submodules=on-demand
+ pl = pull
+ up = !git remote update -p; git merge --ff-only @{u}
+ b = branch
+ br = branch -r
+ ba = branch -a
+ bt = branch --track
+ f = fetch
+ d = diff
+ dc = diff --cached
+ dt = difftool
+ r = reset
+ rh-1 = reset --hard HEAD^1
+ rh = reset --hard HEAD
+ rs-1 = reset --soft HEAD^1
+ rs = reset --soft HEAD
+ rv = revert
+ rb = rebase
+ rc = rebase --continue
+ rsk = rebase --skip
+ rbi = rebase -i
+ rt = remote -v
+ c = clone
+ cr = clone --recursive
+ m = merge
+ t = tag
+ ta = tag -a
+ tn = tag -n
+ s = show
+ sm = submodule
+ smf = submodule foreach
+ sms = submodule summary
+ mt = mergetool
+ cp = cherry-pick
+ cpx = cherry-pick -x
+ sth = stash
+ sths = stash save
+ sthsp = stash save --patch
+ sthsk = stash save --keep-index
+ sthl = stash list
+ stha = stash apply
+ sthd = stash drop
+ sthp = stash pop
+ sthc = stash clear
+ fl = filelog -u

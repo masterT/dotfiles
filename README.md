@@ -14,4 +14,6 @@ source ~/.bash_profile
 
 ```bash
 cp .gemrc ~/.gemrc
+cp .gitconfig ~/.gitconfig
+cp .gitignore_global ~/.gitignore_global
 ```
