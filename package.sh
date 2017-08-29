@@ -82,14 +82,3 @@ nvm alias default v7
 
 # Modules
 npm install name-that-color --global
-
-# Security
-brew install binwalk
-brew install imgcat
-brew install ascii
-
-brew cask install burp-suite
-brew cask install virtualbox
-brew cask install wireshark
-
-pip install pwntools
