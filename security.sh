@@ -16,6 +16,7 @@ brew install binwalk
 brew install imgcat
 brew install ascii
 brew install pngcheck
+brew install john
 
 brew cask install burp-suite
 brew cask install virtualbox
