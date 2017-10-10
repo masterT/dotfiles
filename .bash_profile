@@ -22,6 +22,6 @@ alias g="git"
 alias be="bundle exec"
 alias ls="ls -G"
 alias ll="ls -l"
-
+alias flush='dscacheutil -flushcache'
 alias ntc="name-that-color"
 alias svgo="svgo --pretty --indent=2"
