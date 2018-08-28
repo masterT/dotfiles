@@ -17,6 +17,8 @@ brew install imgcat
 brew install ascii
 brew install pngcheck
 brew install john
+brew install volatility
+brew install jadx
 
 brew cask install burp-suite
 brew cask install virtualbox
