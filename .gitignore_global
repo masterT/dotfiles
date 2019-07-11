@@ -1,4 +1,4 @@
-# .gitignore global
+# Global .gitignore file.
 
 ## Linux
 ._*
@@ -22,26 +22,6 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
-## Eclipse
-*.pydevproject
-.metadata
-.gradle
-bin/
-tmp/
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.settings/
-.loadpath
-.externalToolBuilders/
-*.launch
-.cproject
-.buildpath
-.target
-.texlipse
-
 ## JetBrains
 .idea/
 .ideal_modules/
@@ -51,9 +31,6 @@ local.properties
 out/
 atlassian-ide-plugin.xml
 com_crashlytics_export_strings.xml
-
-## SublimeText
-*.sublime*
 
 ## Vim
 [._]*.s[a-w][a-z]
@@ -78,28 +55,6 @@ xcuserdata
 DerivedData
 *.hmap
 *.ipa
-
-## Mercurial
-/.hg/*
-*/.hg/*
-.hgignore
-
-## SVN
-.svn/
-
-## CVS
-/CVS/*
-*/CVS/*
-.cvsignore
-*/.cvsignore
-
-## SBT
-target/
-lib_managed/
-src_managed/
-project/boot/
-.history
-.cache
 
 ## Vagrant
 .vagrant/
