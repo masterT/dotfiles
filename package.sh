@@ -18,6 +18,7 @@ brew install mercurial
 brew install htop
 brew install pstree
 brew install tree
+brew install ascii
 brew install mas
 brew install nmap
 brew install imagemagick
@@ -25,8 +26,8 @@ brew install mysql
 brew install postgresql
 brew install redis
 brew install rbenv
-brew install pyenv
 brew install ruby-build
+brew install pyenv
 brew install nvm
 brew install yarn
 brew install gphoto2
@@ -36,52 +37,44 @@ brew install unrar
 
 brew cask install google-chrome
 brew cask install firefox
-brew cask install opera
 brew cask install iterm2
-brew cask install xquartz
 brew cask install libreoffice
-brew cask install vlc
-brew cask install hipchat
 brew cask install slack
 brew cask install spectacle
 brew cask install atom
-brew cask install sketch
-brew cask install suspicious-package
+brew cask install visual-studio-code
 brew cask install medis
 brew cask install google-drive
 brew cask install dropbox
 brew cask install kap
 brew cask install sequel-pro
 brew cask install smcfancontrol
+brew cask install cleanmymac
+brew cask install battle-net
+brew cask install teamviewer
 
 
-# Ruby
-rbenv install 2.1.3
-rbenv install 2.2.5
-rbenv install 2.4.0
-
-rbenv global 2.4.0
+# Ruby.
+rbenv install 2.6.2
+rbenv global 2.6.2
 
 
-# Gems
+# Gems.
 gem install foreman
 gem install bundler
 
 
-# Python
-pyenv install 2.7.13
-pyenv install 3.6.0
-pyenv install 3.6.2
-
-pyenv global 3.6.2
+# Python.
+pyenv install 2.7.14
+pyenv install 3.6.4
+pyenv global 3.6.4
 
 
-# Node
-nvm install v7.10.0
-nvm install v7
+# Node.
+nvm install v10.16.0
 
-nvm alias default v7
+nvm alias default v10.16.0
 
 
-# Modules
+# NPM modules.
 npm install name-that-color --global
