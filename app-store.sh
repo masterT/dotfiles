@@ -22,3 +22,4 @@ mas upgrade
 
 mas install 424563675   # iDictionnaire
 mas install 443987910   # 1Password
+mas install 1263070803  # Lungo
