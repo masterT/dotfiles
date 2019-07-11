@@ -14,7 +14,6 @@ brew update &>/dev/null
 
 brew install binwalk
 brew install imgcat
-brew install ascii
 brew install pngcheck
 brew install john
 brew install volatility
@@ -24,6 +23,3 @@ brew cask install burp-suite
 brew cask install virtualbox
 brew cask install wireshark
 brew cask install sonic-visualiser
-
-
-pip install pwntools
