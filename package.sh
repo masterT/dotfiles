@@ -34,6 +34,8 @@ brew install gphoto2
 brew install gpg
 brew install tor
 brew install unrar
+brew install tldr
+brew install wget
 
 brew cask install google-chrome
 brew cask install firefox
