@@ -14,7 +14,6 @@ sudo -v
 brew update &>/dev/null
 
 brew install git
-brew install mercurial
 brew install htop
 brew install pstree
 brew install tree
