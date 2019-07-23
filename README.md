@@ -1,6 +1,10 @@
 # dotfiles
 
-## Install
+## Requirements
+
+- [brew](https://brew.sh/) - The missing package manager for macOS.
+
+## Install packages and applications
 
 ```bash
 # Install packages and applications.
