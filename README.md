@@ -1,6 +1,6 @@
 # dotfiles
 
-## Requirements
+**Requirements**
 
 - [brew](https://brew.sh/) - The missing package manager for macOS.
 
