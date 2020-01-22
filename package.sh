@@ -53,6 +53,7 @@ brew cask install smcfancontrol
 brew cask install cleanmymac
 brew cask install battle-net
 brew cask install teamviewer
+brew cask install spotify
 
 
 # Ruby.
