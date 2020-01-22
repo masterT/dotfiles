@@ -20,6 +20,7 @@ brew install tree
 brew install ascii
 brew install mas
 brew install nmap
+brew install bat
 brew install imagemagick
 brew install mysql
 brew install postgresql
