@@ -33,3 +33,14 @@ alias ntc="name-that-color"
 for file in `brew --prefix`/etc/bash_completion.d/*; do
   . $file
 done
+
+# Functions.
+function loop () {
+    number=$1
+    command=$2
+    echo "Executing $number times '$command'."
+    for ((i = 0 ; i < $number ; i++))
+    do
+        eval $command
+    done
+}
