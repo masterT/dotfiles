@@ -45,7 +45,7 @@ brew cask install spectacle
 brew cask install atom
 brew cask install visual-studio-code
 brew cask install medis
-brew cask install google-drive
+brew cask install google-drive-file-stream
 brew cask install dropbox
 brew cask install kap
 brew cask install sequel-pro
