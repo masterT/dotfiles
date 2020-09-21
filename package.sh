@@ -26,7 +26,6 @@ brew install mysql
 brew install postgresql
 brew install redis
 brew install rbenv
-brew install ruby-build
 brew install pyenv
 brew install nvm
 brew install yarn
@@ -55,29 +54,3 @@ brew cask install cleanmymac
 brew cask install battle-net
 brew cask install teamviewer
 brew cask install spotify
-
-
-# Ruby.
-rbenv install 2.6.2
-rbenv global 2.6.2
-
-
-# Gems.
-gem install foreman
-gem install bundler
-
-
-# Python.
-pyenv install 2.7.14
-pyenv install 3.6.4
-pyenv global 3.6.4
-
-
-# Node.
-nvm install v10.16.0
-
-nvm alias default v10.16.0
-
-
-# NPM modules.
-npm install name-that-color --global
