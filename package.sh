@@ -35,6 +35,7 @@ brew install tor
 brew install unrar
 brew install tldr
 brew install wget
+brew install starship
 
 brew cask install google-chrome
 brew cask install firefox
